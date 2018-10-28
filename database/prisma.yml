@@ -1,0 +1,5 @@
+endpoint: ''
+
+datamodel: datamodel.graphql
+
+secret: mysecret123
