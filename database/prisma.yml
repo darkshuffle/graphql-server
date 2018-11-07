@@ -1,5 +1,10 @@
+#endpoint: ''
 endpoint: ''
-
 datamodel: datamodel.graphql
-
 secret: mysecret123
+
+
+# Deploy hook
+hooks:
+  post-deploy:
+    - graphql get-schema --project database
