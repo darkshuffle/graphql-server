@@ -1,8 +1,7 @@
 #endpoint: ''
-endpoint: ''
+endpoint: http://localhost:4466
 datamodel: datamodel.graphql
 secret: mysecret123
-
 
 # Deploy hook
 hooks:
